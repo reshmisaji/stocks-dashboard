@@ -1,0 +1,14 @@
+.chart-container {
+  min-height: 400px;
+  border: 2px solid rgb(240 241 243);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-icon {
+  font-size: 100px;
+  color: lightsteelblue;
+  cursor: pointer;
+}

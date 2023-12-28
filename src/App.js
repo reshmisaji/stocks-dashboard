@@ -1,8 +1,6 @@
 import "./App.css";
+import { Chart } from "./components/Chart";
 
-const Chart = () => {
-  return <div className="chart-container">Chart</div>;
-};
 
 function App() {
   return (
@@ -13,7 +11,19 @@ function App() {
         <Chart />
         <Chart />
         <Chart />
+        <Chart />
+        <Chart />
+        <Chart />
+        <Chart />
+        <Chart />
+        <Chart />
+        <Chart />
+        <Chart />
+        <Chart />
+        <Chart />
 
+   
+       
       </div>
     </div>
   );

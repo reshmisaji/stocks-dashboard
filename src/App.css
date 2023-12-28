@@ -13,17 +13,10 @@
   color: white;
 }
 
-.chart-container {
-  min-width: 400px;
-  height: 400px;
-  border: 1px solid;
-  border-radius: 5px;
-}
-
 .chart-dashboard {
-  margin:30px;
+  margin: 30px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, 500px);
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   justify-content: center;
   gap: 80px;
 }
